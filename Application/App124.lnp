@@ -1,0 +1,15 @@
+"delay.obj",
+".\xdata.obj",
+"devSFunc.obj",
+"Codec.obj",
+"Device.obj",
+"devDesc.obj",
+"DevPRom.obj",
+"Buttons.obj",
+"DevRCode.obj",
+"SoftPll.obj" 
+TO "App124" 
+NOPRINT RAMSIZE(256) 
+CODE( 0x0000 )
+XDATA( 0xFA10 )
+PDATA( 0xFA10 )

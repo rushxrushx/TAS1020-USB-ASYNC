@@ -1,0 +1,1753 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+Y:\À¬»ø¶Ñ\¹¤³Ì\TAS1020\v1.8\Application\App.uv2
+Project File Date:  11/10/2018
+
+<h2>Output:</h2>
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3310
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000CED
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3310
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000CED
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3333
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D04
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3333
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D04
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3333
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D04
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3303
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000CE6
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3080
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000C07
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3080
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000C07
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3051
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BEA
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3065
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BF8
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3042
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BE1
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3042
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BE1
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3042
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BE1
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling DevRCode.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3065
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BF8
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling DevRCode.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3060
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BF3
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3060
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000BF3
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3340
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D0B
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3340
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D0B
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3344
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3344
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3344
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3344
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3344
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000D0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3589
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E04
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3589
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E04
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=89.2 xdata=46 code=3589
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E04
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=90.2 xdata=46 code=3600
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3600
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3606
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E15
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3632
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E2F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3638
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E35
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3638
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E35
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3599
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3586
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E01
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3586
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E01
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3599
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E0F
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3596
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E0B
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3716
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E83
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3716
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E83
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).
+Build target 'app124'
+compiling delay.c...
+compiling xdata.c...
+compiling devSFunc.c...
+compiling Codec.c...
+compiling Device.c...
+compiling devDesc.c...
+assembling DevPRom.a51...
+compiling DevRCode.c...
+compiling Buttons.c...
+assembling DevRCode.SRC...
+compiling SoftPll.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?COSETSPKFREQ?CODEC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BUTCHKUPDATE?BUTTONS
+Program Size: data=92.2 xdata=46 code=3722
+creating hex file from "App124"...
+User command #1: hex2bin app124.hex
+hex2bin v1.0.1, Copyright (C) 1999 Jacques Pelletier
+Lowest address = 00000000
+Highest address = 00000E89
+User command #2: Header.exe HEADER.TXT APP124.BIN OUT.BIN
+Running creat image
+argc = 4
+argv[0] = Header.exe 
+argv[1] = HEADER.TXT 
+Vendor Id = 451
+Product Id = 1020
+Product version = a
+Firmware version = 4
+Support String bit = 0
+Self Power bit = 1
+Bus Power bit = 1
+Max power = 50
+Cpu 24MHZ bit = 0
+Header overwrite bit = 0
+I2C 400MHZ bit = 0
+Write page size = 20
+Eeprom application type
+Read page size = 0
+header.buildAppEeprom(APP124.BIN,OUT.BIN) return = 0
+"App124" - 0 Error(s), 2 Warning(s).

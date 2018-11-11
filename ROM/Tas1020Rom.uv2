@@ -1,0 +1,131 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (Target 1), 0x0000 // Tools: 'MCS-51'
+
+Group (Source Group 1)
+
+File 1,1,<.\I2c.c><I2c.c>
+File 1,1,<.\Usb.c><Usb.c>
+File 1,1,<.\UsbDfu.c><UsbDfu.c>
+File 1,1,<.\Eeprom.c><Eeprom.c>
+File 1,1,<.\Usbhid.c><Usbhid.c>
+File 1,1,<.\Usbaudio.c><Usbaudio.c>
+File 1,1,<.\UsbEng.c><UsbEng.c>
+File 1,1,<.\RomBoot.c><RomBoot.c>
+File 1,2,<.\Startup.a51><Startup.a51>
+File 1,1,<.\xdata.c><xdata.c>
+File 1,1,<.\Utils.c><Utils.c>
+File 1,2,<.\Utils.src><Utils.src>
+File 1,1,<.\RomFunc.c><RomFunc.c>
+File 1,2,<.\PublicRom.a51><PublicRom.a51>
+
+
+Options 1,0,0  // Target 'Target 1'
+ Device (8052 (all Variants))
+ Vendor (Generic)
+ Cpu (IRAM(0 - 0xFF) IROM(0-0x1FFF) CLOCK(12000000))
+ Rgf (REG51.H)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ UseEnv=0
+ EnvBin ()
+ EnvInc ()
+ EnvLib ()
+ EnvReg (ÿGeneric\)
+ OrgReg (ÿGeneric\)
+ TgStat=0
+ OutDir (.\)
+ OutName (Tas1020)
+ GenApp=1
+ GenLib=0
+ GenHex=1
+ Debug=1
+ Browse=1
+ LstDir (.\)
+ RunUsr 0 0 <>
+ RunUsr 1 0 <>
+ MODEL5=1
+ RTOS5=0
+ ROMSZ5=1
+ DHOLD5=0
+ XHOLD5=0
+ T51FL=80
+ CBANKS5=0
+ XBANKS5=0
+ RCB51 { 0,0,0,0,0,0,0,1,0 }
+ RXB51 { 0,0,0,0,0,0,0,0,0 }
+ OCM51 { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCR51 { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IRO51 { 1,0,0,0,0,0,32,0,0 }
+ IRA51 { 0,0,0,0,0,0,1,0,0 }
+ XRA51 { 0,0,0,0,0,0,0,0,0 }
+ C51FL=17452308
+ C51VA=32768
+ C51MSC (REGPARMS)
+ C51DEF ()
+ C51UDF ()
+ INCC5 ()
+ AX51FL=4
+ AX51MSC ()
+ AX51SET ()
+ AX51RST ()
+ INCA5 ()
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ BankNo=65535
+ LX51FL=288
+ LX51OVL ()
+ LX51MSC ()
+ LX51DWN (7, 15)
+ LX51LFI ()
+ LX51ASN ()
+ LX51RES ()
+ LX51CCL ()
+ LX51UCL ()
+ LX51CSC ()
+ LX51UCS ()
+ LX51COB (0x8000)
+ LX51XDB (0xFA10)
+ LX51PDB (0xFA10)
+ LX51BIB ()
+ LX51DAB ()
+ LX51IDB ()
+ LX51PRC ()
+ LX51STK ()
+ LX51COS ()
+ LX51XDS ()
+ LX51BIS ()
+ LX51DAS ()
+ LX51IDS ()
+  OPTDL (S8051.DLL)()(DP51.DLL)(-p52)(S8051.DLL)()(TP51.DLL)(-p52)
+  OPTDBG 509,0,()()()()()()()()()() ()()()()
+EndOpt
+
+Options 1,1,4  // File 'Eeprom.c'
+ IncBld=2
+ AlwaysBuild=2
+ GenAsm=2
+ AsmAsm=2
+ PublicsOnly=2
+ StopCode=11
+ CustArgs ()
+ LibMods ()
+ BankNo=65535
+ C51FL=42902186
+ C51VA=0
+ C51MSC ()
+ C51DEF ()
+ C51UDF ()
+ INCC5 ()
+EndOpt
+
