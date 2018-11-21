@@ -1,8 +1,6 @@
-MUST COMPILE USING KEIL UV2 VERSION 7.5 !!!
-
-必须使用KEIL 7.5版本编译，Uv3Uv4编译后不能正常工作。
-
+必须使用KEIL 7.5版本编译，Uv3Uv4编译后不能正常工作(MUST COMPILE USING KEIL UV2 VERSION 7.5 !!!)
 USB1.1异步音频开源项目，支持24/44.1格式，外部时钟输入为11.2896M。
-3字节反馈量fbvalue=44<<10 + 100<<4  （以44100Hz为例），放入反馈端点0x82发给电脑即可
-目前bug：
-ACG捕获寄存器存在问题，捕获值有时候错乱，目前设置了固定频率11290计算反馈，另外经过研究声擎D3反馈值始终不变，怀疑此芯片存在硬件BUG。
+3字节反馈量fbvalue=44<<10 + 100<<4  （以44100Hz为例），放入反馈端点0x82发给电脑即可.
+
+具体说明地址(more detail)
+http://bbs.mydigit.cn/read.php?tid=2594841
