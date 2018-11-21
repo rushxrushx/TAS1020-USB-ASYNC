@@ -1,0 +1,212 @@
+; .\Utils.SRC generated from: .\Utils.c
+
+$NOMOD51
+
+NAME	UTILS
+
+P0	DATA	080H
+P1	DATA	090H
+P2	DATA	0A0H
+P3	DATA	0B0H
+PSW	DATA	0D0H
+ACC	DATA	0E0H
+B	DATA	0F0H
+SP	DATA	081H
+DPL	DATA	082H
+DPH	DATA	083H
+PCON	DATA	087H
+TCON	DATA	088H
+TMOD	DATA	089H
+TL0	DATA	08AH
+TL1	DATA	08BH
+TH0	DATA	08CH
+TH1	DATA	08DH
+IE	DATA	0A8H
+IP	DATA	0B8H
+SCON	DATA	098H
+SBUF	DATA	099H
+T2CON	DATA	0C8H
+RCAP2L	DATA	0CAH
+RCAP2H	DATA	0CBH
+TL2	DATA	0CCH
+TH2	DATA	0CDH
+CY	BIT	0D0H.7
+AC	BIT	0D0H.6
+F0	BIT	0D0H.5
+RS1	BIT	0D0H.4
+RS0	BIT	0D0H.3
+OV	BIT	0D0H.2
+P	BIT	0D0H.0
+TF1	BIT	088H.7
+TR1	BIT	088H.6
+TF0	BIT	088H.5
+TR0	BIT	088H.4
+IE1	BIT	088H.3
+IT1	BIT	088H.2
+IE0	BIT	088H.1
+IT0	BIT	088H.0
+EA	BIT	0A8H.7
+ET2	BIT	0A8H.5
+ES	BIT	0A8H.4
+ET1	BIT	0A8H.3
+EX1	BIT	0A8H.2
+ET0	BIT	0A8H.1
+EX0	BIT	0A8H.0
+PT2	BIT	0B8H.5
+PS	BIT	0B8H.4
+PT1	BIT	0B8H.3
+PX1	BIT	0B8H.2
+PT0	BIT	0B8H.1
+PX0	BIT	0B8H.0
+RD	BIT	0B0H.7
+WR	BIT	0B0H.6
+T1	BIT	0B0H.5
+T0	BIT	0B0H.4
+INT1	BIT	0B0H.3
+INT0	BIT	0B0H.2
+TXD	BIT	0B0H.1
+RXD	BIT	0B0H.0
+SM0	BIT	098H.7
+SM1	BIT	098H.6
+SM2	BIT	098H.5
+REN	BIT	098H.4
+TB8	BIT	098H.3
+RB8	BIT	098H.2
+TI	BIT	098H.1
+RI	BIT	098H.0
+T2EX	BIT	090H.1
+T2	BIT	090H.0
+TF2	BIT	0C8H.7
+EXF2	BIT	0C8H.6
+RCLK	BIT	0C8H.5
+TCLK	BIT	0C8H.4
+EXEN2	BIT	0C8H.3
+TR2	BIT	0C8H.2
+C_T2	BIT	0C8H.1
+CP_RL2	BIT	0C8H.0
+?PR?UtilResetBootCPU?UTILS               SEGMENT CODE INBLOCK
+?PR?UtilResetCPU?UTILS                   SEGMENT CODE INBLOCK
+	PUBLIC	UtilResetCPU
+	PUBLIC	UtilResetBootCPU
+; //==================================================================== 
+; // Texas Instruments Strictly Private 
+; // Copyright 2000, Texas Instruments Inc. 
+; //==================================================================== 
+; /*====================================================================  
+; Utils.c
+; Utilities functions
+; ====================================================================*/
+; #pragma SRC
+; 
+; #include "types.h"
+; #include <Reg52.h>
+; #include "reg_stc1.h"
+; #include "Mmap.h"
+; #include "Utils.h"
+; 
+; /*====================================================================
+; UtilResetBootCPU: Reset 51 core and USB portion to hard reset values and
+; perfom long jump to address 0 (reset vector) and boot from ROM
+; Input:    None
+; Return:   None
+; Remark:   compile w #pragma SRC and link w code segment 8003h 
+; Note: This is a complete reset as in power up
+; ====================================================================*/
+; void UtilResetBootCPU() {
+
+	RSEG  ?PR?UtilResetBootCPU?UTILS
+	USING	0
+UtilResetBootCPU:
+			; SOURCE LINE # 25
+;   // STC portion - Does not reset DMA, C-PORT, D-PORT, ACG 
+;   IE=0;           // Disable 8051 interrupts 
+			; SOURCE LINE # 27
+	CLR  	A
+	MOV  	IE,A
+;   //    USBCTL=0x10;    // CONT is 0  - causing host to detect a device disconnect
+;   // FRSTE is set - for a real device reset including external
+;   // RAM
+;   // FEN = 0                                               
+;   //    GLOBCTL &= 0x80; // Keep the CPU speed the same at 12/24MHZ
+;   
+;   //    USBFADR=0;
+;   //    USBSTA=0;
+;   
+;   USBCTL |= 0x01;       // Set SDW bit confirm
+			; SOURCE LINE # 37
+	MOV  	DPTR,#0FFFCH
+	MOVX 	A,@DPTR
+	ORL  	A,#01H
+	MOVX 	@DPTR,A
+;   MEMCFG &= ~MEMCFG_SDW_BIT;    // turn off SDW bit to turn on shadow ROM
+			; SOURCE LINE # 38
+	MOV  	DPTR,#0FFB0H
+	MOVX 	A,@DPTR
+	ANL  	A,#0FEH
+	MOVX 	@DPTR,A
+;   USBCTL &= ~0x01;      // Reset SDW bit confirm
+			; SOURCE LINE # 39
+	MOV  	DPTR,#0FFFCH
+	MOVX 	A,@DPTR
+	ANL  	A,#0FEH
+	MOVX 	@DPTR,A
+; 
+; #pragma asm
+;   ljmp 08000h		// jump to reset vector
+	  ljmp 08000h		 
+; #pragma endasm
+;     
+;     return;
+; } /* ResetCPU */
+			; SOURCE LINE # 46
+?C0001:
+	RET  	
+; END OF UtilResetBootCPU
+
+; 
+; /*====================================================================
+; UtilResetCPU: Reset 51 core and USB portion to hard reset values and
+; perfom long jump to address 0 (reset vector)and jump to Program RAM
+; Input:    None
+; Return:   None
+; Remark:   compile w #pragma SRC and link w code segment 8003h 
+; ====================================================================*/
+; void UtilResetCPU() {
+
+	RSEG  ?PR?UtilResetCPU?UTILS
+	USING	0
+UtilResetCPU:
+			; SOURCE LINE # 55
+;   // STC portion - Does not reset DMA, C-PORT, D-PORT, ACG 
+;   IE=0;           // Disable 8051 interrupts 
+			; SOURCE LINE # 57
+	CLR  	A
+	MOV  	IE,A
+;   //    USBCTL=0;     	// CONT is 0  - causing host to detect a device disconnect
+;   // FRSTE is 0 - prevent a real device reset
+;   // FEN = 0                                               
+;   //    GLOBCTL &= 0x80; // Keep the CPU speed the same at 12/24MHZ
+;   
+;   //    USBFADR=0;
+;   //    USBSTA=0;
+;   
+;   MEMCFG |= MEMCFG_SDW_BIT;    // turn on SDW bit to turn off shadow ROM
+			; SOURCE LINE # 66
+	MOV  	DPTR,#0FFB0H
+	MOVX 	A,@DPTR
+	ORL  	A,#01H
+	MOVX 	@DPTR,A
+;   
+; #pragma asm
+;   ljmp 00000h		// jump to reset vector
+	  ljmp 00000h		 
+; #pragma endasm
+;     
+;     return;
+; } /* ResetCPU */
+			; SOURCE LINE # 73
+?C0002:
+	RET  	
+; END OF UtilResetCPU
+
+	END

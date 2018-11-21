@@ -1,0 +1,45 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.a*; *.src)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt)
+ pExt (*.plm)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0000 // Tools: 'MCS-51'
+GRPOPT 1,(Source Group 1),1,0,0
+
+OPTFFF 1,1,1,0,0,0,0,0,<.\I2c.c><I2c.c> 
+OPTFFF 1,2,1,0,0,50,65,0,<.\Usb.c><Usb.c> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,245,255,255,255,215,255,255,255,160,0,0,0,160,0,0,0,182,4,0,0,185,2,0,0 }
+OPTFFF 1,3,1,0,0,0,0,0,<.\UsbDfu.c><UsbDfu.c> 
+OPTFFF 1,4,1,0,0,0,0,0,<.\Eeprom.c><Eeprom.c> 
+OPTFFF 1,5,1,0,0,0,0,0,<.\Usbhid.c><Usbhid.c> 
+OPTFFF 1,6,1,0,0,0,0,0,<.\Usbaudio.c><Usbaudio.c> 
+OPTFFF 1,7,1,0,0,128,128,0,<.\UsbEng.c><UsbEng.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,245,255,255,255,215,255,255,255,120,0,0,0,120,0,0,0,138,4,0,0,141,2,0,0 }
+OPTFFF 1,8,1,0,0,0,0,0,<.\RomBoot.c><RomBoot.c> 
+OPTFFF 1,9,2,0,0,0,0,0,<.\Startup.a51><Startup.a51> 
+OPTFFF 1,10,1,0,0,0,0,0,<.\xdata.c><xdata.c> 
+OPTFFF 1,11,1,0,0,0,0,0,<.\Utils.c><Utils.c> 
+OPTFFF 1,12,2,0,0,0,0,0,<.\Utils.src><Utils.src> 
+OPTFFF 1,13,1,0,0,0,0,0,<.\RomFunc.c><RomFunc.c> 
+OPTFFF 1,14,2,0,0,0,0,0,<.\PublicRom.a51><PublicRom.a51> 
+
+
+TARGOPT 1, (Target 1)
+ CLK51=12000000
+  OPTTT 0,1,1,0
+  OPTHX 0,65535,0,0,0
+  OPTLX 120,65,8,<.\>
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTDL (S8051.DLL)()(DP51.DLL)(-p52)(S8051.DLL)()(TP51.DLL)(-p52)
+  OPTDBG 509,0,()()()()()()()()()() ()()()()
+  OPTDF 0x0
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

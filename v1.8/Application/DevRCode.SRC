@@ -1,0 +1,86 @@
+; .\DevRCode.SRC generated from: DevRCode.c
+; COMPILER INVOKED BY:
+;        D:\EDA\Keil_Uv2_SL\C51\BIN\C51.EXE DevRCode.c ROM(COMPACT) ORDER DEFINE(SELFPOWER_NOREMOTE,_DIRECT_ACCESS_USBREQUEST_,_APP_24_BIT_,_815E_FIX) NOPRINT SRC(.\DevRCode.SRC)
+
+
+NAME	DEVRCODE
+
+?PR?UseRomExtInt0?DEVRCODE               SEGMENT CODE INBLOCK 
+?PR?_devRomFunction?DEVRCODE             SEGMENT CODE INBLOCK 
+	PUBLIC	_devRomFunction
+	PUBLIC	UseRomExtInt0
+; //=============================================================================
+; // ROMCODE.C
+; //
+; // This module contains stub functions used to access functionality provided in
+; // the ROM.
+; //
+; // Texas Instruments Strictly Private 
+; // Copyright 2000, Texas Instruments Inc. 
+; //============================================================================= 
+; //#pragma SRC
+; #pragma REGPARMS
+; #include "..\ROM\types.h"
+; #include "..\ROM\Reg_stc1.h"
+; //
+; // Public rom function entry point.
+; //
+; #define PUBLIC_ROM_FUNCTION_ENTRY   0x9FFD
+; 
+; //
+; // External int 0 in ROM
+; //
+; #define ROM_EXTINT0_ADDR            8003h
+; 
+; //
+; // This is a stub function for the external interrupt 0
+; // ISR in the ROM. The constant USE_ROM_EXT_INT0 should be
+; // defined if the user wants to use the ROM based USB engine.
+; //
+CSEG	AT	00003H
+	LJMP	UseRomExtInt0
+
+; void UseRomExtInt0() interrupt 0
+
+	RSEG  ?PR?UseRomExtInt0?DEVRCODE
+	USING	0
+UseRomExtInt0:
+			; SOURCE LINE # 29
+; {	
+; #pragma asm
+;     ljmp        ROM_EXTINT0_ADDR
+	  ljmp        8003h
+; #pragma endasm
+; }
+			; SOURCE LINE # 34
+	RETI 	
+; END OF UseRomExtInt0
+
+; 
+; // Jump to ROM function entry point
+; word devRomFunction(byte Function)
+
+	RSEG  ?PR?_devRomFunction?DEVRCODE
+_devRomFunction:
+	USING	0
+			; SOURCE LINE # 37
+;---- Variable 'Function?140' assigned to Register 'R7' ----
+; {
+			; SOURCE LINE # 38
+;     Function = Function;   
+			; SOURCE LINE # 39
+; #pragma asm
+;     ljmp        PUBLIC_ROM_FUNCTION_ENTRY
+	  ljmp        0x9FFD
+; #pragma endasm
+;     return 1;
+			; SOURCE LINE # 43
+	MOV  	R6,#00H
+	MOV  	R7,#01H
+; }
+			; SOURCE LINE # 44
+?C0002:
+	RET  	
+; END OF _devRomFunction
+
+	END
